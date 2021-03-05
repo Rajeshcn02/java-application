@@ -139,7 +139,7 @@
               if a META-INF/build-info.properties file is present -->
             <goals>
               <goal>build-info</goal>
-              <goal>enforce-versions</goal>
+             
               <goal>retarget-deploy</goal>
               <goal>tag-master</goal>
               <goal>promote-master</goal>
