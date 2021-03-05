@@ -273,5 +273,13 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
+  
+  <distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub Rajeshcn02 Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/Rajeshcn02/java-application</url>
+   </repository>
+  </distributionManagement>
 
 </project>
