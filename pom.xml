@@ -137,13 +137,6 @@
           <execution>
             <!-- Spring Boot Actuator displays build-related information
               if a META-INF/build-info.properties file is present -->
-            <goals>
-              <goal>build-info</goal>
-             
-              <goal>retarget-deploy</goal>
-              <goal>tag-master</goal>
-              <goal>promote-master</goal>
-            </goals>
             <configuration>
               <additionalProperties>
                 <encoding.source>${project.build.sourceEncoding}</encoding.source>
